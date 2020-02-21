@@ -1,0 +1,20 @@
+public class ChallengeThree 
+{    
+    Account usgov;
+    
+   public void SetAccount()
+   {
+       usgov = new Account();   
+       usgov.Name = 'USMC';
+       usgov.AnnualRevenue = 10000000000.00;
+       usgov.Description = 'Semper Fidelis';
+        
+   }
+    
+   public void GetAccount()
+   {
+      System.debug('Name: ' + usgov.Name);  
+      System.debug('Annual Revenue: ' + usgov.AnnualRevenue);
+      System.debug('Description' + usgov.Description);
+   }
+}
