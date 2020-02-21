@@ -1,0 +1,19 @@
+public class ChallengeOne {
+    
+    Integer age;
+    String name;
+    Account bankAccount;
+    
+    public void SetValues()
+    {
+        age = 21;
+        name = 'Killa Stacks';
+        bankAccount = new Account();
+        bankAccount.Name = 'Checking';
+    }
+    
+    public void GetValues()
+    {
+        system.debug('Age: ' + age + '\n' + 'Name: ' + name + '\n' + 'Bank Account: '+bankAccount.Name);
+    }
+}
