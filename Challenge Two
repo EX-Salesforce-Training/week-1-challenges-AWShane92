@@ -1,0 +1,36 @@
+public class ChallengeTwo {
+
+    public void ForLoop()
+    {
+        List<Integer> ilist = new List<Integer>{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        
+        for(Integer i : ilist)
+        {
+            System.debug(i);
+        }
+    }
+    
+    public void WhileLoop()
+    {
+        Integer i = 0;
+        
+        while(i < 10)
+        {
+            i++;
+        }
+    }
+    
+    public void iffy()
+    {
+        Boolean iffy = false;
+        
+        if(iffy)
+        {
+            System.debug('I wanna go first!!!');
+        }
+        if(!iffy)
+        {
+            System.debug('It\'s all good I\'ll go second bro.');
+        }
+    }
+}
